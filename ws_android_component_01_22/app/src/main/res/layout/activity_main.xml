@@ -7,28 +7,31 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv_ssafybucks"
+        android:id="@+id/tv_saffy_bucks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SSAFY_Bucks"
-        android:textSize="30sp"
-        android:clickable="true"
+        android:text="싸피벅스"
+        android:textSize="50sp"
+        android:textColor="#909090"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"/>
+
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:focusable="true"
+        />
 
     <TextView
-        android:id="@+id/tv_number"
+        android:id="@+id/tv_numbers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="010-1234-5678"
-        android:textStyle="italic"
-        android:textSize="20sp"
+        android:textSize="30sp"
+        android:textColor="#808080"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginEnd="50dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="50dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
