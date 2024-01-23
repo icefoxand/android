@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- 배경 색상을 원하는 색으로 지정 -->
+    <corners android:radius="15dp" /> <!-- radius 값을 15dp로 설정 -->
+
+    <!-- 테두리 색상을 원하는 색으로 지정 -->
+    <!-- 테두리 두께를 원하는 값으로 지정 -->
+    <stroke
+        android:color="@color/main_color"
+        android:width="1dp" />
+</shape>

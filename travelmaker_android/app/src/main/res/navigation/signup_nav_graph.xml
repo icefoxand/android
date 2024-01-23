@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/signup_nav_graph"
+    app:startDestination="@id/signupLocationFragment">
+    <fragment
+        android:id="@+id/signupLocationFragment"
+        android:name="com.gumibom.travelmaker.ui.signup.SignupLocationFragment"
+        android:label="SignupLocationFragment" />
+</navigation>
