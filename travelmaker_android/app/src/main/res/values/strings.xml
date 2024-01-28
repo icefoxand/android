@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">travelmaker</string>
-    <string name="signup_previous">이전</string>
-    <string name="signup_next">다음</string>
-    <string name="signup_title">동네인증을 해주세요!</string>
-    <string name="signup_title2">본인이 살고 있는 곳을 검색해\n입력해주세요.</string>
-
-</resources>
