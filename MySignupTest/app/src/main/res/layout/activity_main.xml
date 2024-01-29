@@ -41,12 +41,23 @@
         />
 
     <TextView
+        android:id="@+id/tv_msg_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_id"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:text="1) 유효성검사 성공시 버튼 활성화\n2) 중복검사 성공시 toast 띄우기"
+        />
+
+    <TextView
         android:id="@+id/tv_pw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="250dp"
         android:layout_marginStart="100dp"
         android:textSize="50sp"
         android:text="PW"
@@ -58,10 +69,20 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/tv_pw"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="260dp"
         android:layout_marginStart="10dp"
         android:hint="PW를 입력하세요"
 
         />
 
+    <TextView
+        android:id="@+id/tv_msg_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_pw"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:text="1) 유효성검사 성공시 '다음'버튼 활성화"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
